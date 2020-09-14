@@ -1,0 +1,32 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Arvo", cursive;
+}
+
+h2 {
+    color: #3046C5;
+}
+
+header h2 {
+    color: #CEC8FF;
+}
+
+footer {
+    background-image: linear-gradient(#90b91e, rgb(170, 22, 22));
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, #27dfdf, #27282e, #5a162a);
+    color: rgb(76, 155, 109);
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
