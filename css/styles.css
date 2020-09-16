@@ -1,32 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(66, 19, 177);
 }
 
-h1, h2, h3 {
-    font-family: "Arvo", cursive;
+.header {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/glass_wine.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 0;
+
+}
+.wl {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+.wl .title{
+    font-family: "Lobster", cursive;
+    color: rgb(23, 187, 91);
+    font-size: 100px;
 }
 
-h2 {
-    color: #3046C5;
+.wl-button{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 250px;
+    font-weight: bold;
+    background: rgb(209, 147, 14);
+    color: black;
+    font-size: 50px;
 }
 
-header h2 {
-    color: #CEC8FF;
+
+
+
+.navbar {
+    background-color: rgba(0,0,0,0.5);
 }
 
-footer {
-    background-image: linear-gradient(#90b91e, rgb(170, 22, 22));
+.footer{
+    background-image: linear-gradient(rgba(0,0,0,0.5), (0,0,0,0.3));
     padding: 20px 0;
-}
-
-.jumbotron {
-    padding: 30px;
-    background-image: linear-gradient(to right, #27dfdf, #27282e, #5a162a);
-    color: rgb(76, 155, 109);
-}
-
-.row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
 }
